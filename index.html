@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+<link href="assets/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="openModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="assets/img/MTKP.png" alt="logoMTKP">
+          <p>Выберите тест</p>
+          <div class="answer">
+          <a href="#"><p id="test1" class="qNumber">Тест 1</p></a>
+          <a href="#"><p id="test2" class="qNumber">Тест 2</p></a>
+          <a href="#"><p id="test3" class="qNumber">Тест 3</p></a>
+          </div>
+          <section>
+            <input type="text" style="display: block; margin-bottom: 5px;" placeholder="name" id="name">
+            <input type="text" style="display: block; margin-bottom: 5px;" placeholder="group" id="group">
+            <button id="registrationBtn">Зарегистрироваться</button>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <h4 class="testH">Текст вопроса</h4>
+    <p id="1" name="answer" class="ftpTest">Ответ 1</p>
+    <p id="2" name="answer" class="ftpTest">Ответ 2</p>
+    <p id="3" name="answer" class="ftpTest">Ответ 3</p>
+  </section>
+  <p id="cstud"></p>
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase.js"></script>
+
+<script type="text/javascript" src="assets/js/app.js"></script></body>
+
+</html>
